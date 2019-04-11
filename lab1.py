@@ -38,32 +38,9 @@ def bin_search(target, low, high, int_list):  # must use recursion
    else:
       return None
 
-list_val =[1,2,3,4,7,8,9,10]
-low = 0
-high = len(list_val)-1
-#self.assertEqual(bin_search(55, 0, len(list_val) - 1, list_val), 0)
-# print(bin_search(3, 0, 5, [3, 7, 10, 16, 28, 32]))
-# print(bin_search(1, 0, len(list_val) - 1, list_val))
-# print(bin_search(0, low, len(list_val) - 1, list_val))
 
-print(bin_search(1, low, len(list_val) - 1, list_val))
 
-# def binary_search(target, low, high, int_list):
-#    if target not in int_list:
-#       return None
-#    while high >= 1:
-#       midpoint = ((high - low) // 2) + low
-#       if int_list[midpoint] == target:
-#          return midpoint
-#       elif int_list[midpoint] < target:
-#          low = midpoint + 1
-#       else:  # int_list[midpoint] > target
-#          high = midpoint - 1
-#    else:
-#       return None
-#
-#
-# print(binary_search(387, 0, 5, [3, 7, 10, 16, 28, 32]))
+
 
 
 
